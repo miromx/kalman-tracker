@@ -169,7 +169,7 @@ void ShowManyImages(string title, int nArgs, ...) {
 	}
 
 	// Create a new window, and show the Single Big Image
-	namedWindow(title, 1);
+	namedWindow(title, 4);
 	imshow(title, DispImage);
 	// waitKey(); // uncommented in original
 
